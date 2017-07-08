@@ -1,0 +1,12 @@
+# junk files
+.sync
+*.bak
+*~
+
+# this is automatically generated
+stream-labels/*
+
+# exclude service.json contains the twitch api key
+service.json
+
+!.gitkeep
