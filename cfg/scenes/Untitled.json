@@ -59,7 +59,7 @@
             "active": true,
             "interval": 50,
             "non_matching_scene": "OnAir (Live Coding)",
-            "switch_if_not_matching": true,
+            "switch_if_not_matching": false,
             "switches": [
                 {
                     "scene": "Privacy",
