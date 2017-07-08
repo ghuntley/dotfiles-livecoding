@@ -104,6 +104,14 @@
                 {
                     "scene": "Privacy",
                     "window_title": ".*ghuntley \\(Geoffrey Huntley\\).*"
+                },
+                {
+                    "scene": "Privacy",
+                    "window_title": ".*Notifications.*"
+                },
+                {
+                    "scene": "Privacy",
+                    "window_title": ".*Create a New Repository.*"
                 }
             ]
         },
