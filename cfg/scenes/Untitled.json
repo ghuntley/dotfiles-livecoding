@@ -51,8 +51,8 @@
         "sync": 0,
         "volume": 1.0
     },
-    "current_program_scene": "OnAir (Live Coding)",
-    "current_scene": "OnAir (Live Coding)",
+    "current_program_scene": "Standby",
+    "current_scene": "Standby",
     "current_transition": "Fade",
     "modules": {
         "auto-scene-switcher": {
@@ -132,7 +132,7 @@
         }
     },
     "name": "Untitled",
-    "preview_locked": false,
+    "preview_locked": true,
     "quick_transitions": [
         {
             "duration": 300,
@@ -258,7 +258,189 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "story",
+            "name": "Please stand by",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "align": "center",
+                "extents": false,
+                "font": {
+                    "face": "Operator Mono Bold",
+                    "flags": 0,
+                    "size": 200,
+                    "style": ""
+                },
+                "text": "Back in a couple\nof minutes..."
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Standby Image",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Dropbox/livecoding/standby/markus-spiske-109588.jpg"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Avatar",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Dropbox/livecoding/avatar.jpg"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Avatar": [],
+                "libobs.hide_scene_item.CP920": [],
+                "libobs.show_scene_item.Avatar": [],
+                "libobs.show_scene_item.CP920": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Avatar (Bottom Right)",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 2,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 1,
+                        "name": "CP920",
+                        "pos": {
+                            "x": 1470.0,
+                            "y": 720.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.703125,
+                            "y": 0.75
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 2,
+                        "name": "Avatar",
+                        "pos": {
+                            "x": 1466.0,
+                            "y": 721.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.8916666507720947,
+                            "y": 1.8916666507720947
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "github.com/ghuntley",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "bk_color": 0,
+                "chatlog": false,
+                "color": 0,
+                "font": {
+                    "face": "Operator Mono Bold",
+                    "flags": 1,
+                    "size": 36,
+                    "style": ""
+                },
+                "text": "github.com/ghuntley"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "twitter.com/geoffreyhuntley",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -266,14 +448,12 @@
             "settings": {
                 "bk_color": 0,
                 "color": 0,
-                "file": "C:/Dropbox/livecoding/infobar.txt",
                 "font": {
                     "face": "Operator Mono Bold",
                     "flags": 1,
                     "size": 36,
                     "style": ""
                 },
-                "read_from_file": true,
                 "text": "twitter.com/geoffreyhuntley"
             },
             "sync": 0,
@@ -285,19 +465,316 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "slideshow",
+            "id": "text_gdiplus",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Image Slide Show",
+            "name": "ghuntley.com",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "files": [
+                "bk_color": 0,
+                "color": 0,
+                "font": {
+                    "face": "Operator Mono Bold",
+                    "flags": 1,
+                    "size": 36,
+                    "style": ""
+                },
+                "text": "ghuntley.com"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "color_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Background",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {},
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Background": [],
+                "libobs.hide_scene_item.ghuntley.com": [],
+                "libobs.hide_scene_item.github.com/ghuntley": [],
+                "libobs.hide_scene_item.story": [],
+                "libobs.hide_scene_item.twitter.com/geoffreyhuntley": [],
+                "libobs.show_scene_item.Background": [],
+                "libobs.show_scene_item.ghuntley.com": [],
+                "libobs.show_scene_item.github.com/ghuntley": [],
+                "libobs.show_scene_item.story": [],
+                "libobs.show_scene_item.twitter.com/geoffreyhuntley": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Bio",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 6,
+                "items": [
                     {
-                        "value": "C:/Dropbox/livecoding/slide-show"
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 5,
+                        "name": "github.com/ghuntley",
+                        "pos": {
+                            "x": 1075.0,
+                            "y": 1041.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 3,
+                        "name": "ghuntley.com",
+                        "pos": {
+                            "x": 609.0,
+                            "y": 1039.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 1,
+                        "name": "Background",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1034.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 4.8000001907348633,
+                            "y": 4.8000001907348633
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 4,
+                        "name": "twitter.com/geoffreyhuntley",
+                        "pos": {
+                            "x": 1469.0,
+                            "y": 1039.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 6,
+                        "name": "story",
+                        "pos": {
+                            "x": 5.0,
+                            "y": 1039.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "doing secret stuff",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "chatlog": false,
+                "extents": false,
+                "font": {
+                    "face": "Operator Mono Bold",
+                    "flags": 0,
+                    "size": 72,
+                    "style": ""
+                },
+                "outline": false,
+                "outline_size": 2,
+                "text": "doing secret stuff",
+                "vertical": false
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "ChatBox (Left 1/4)",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "css": "body { background-color:black; margin: 0px auto; overflow: hidden; }",
+                "height": 1080,
+                "url": "https://streamlabs.com/widgets/chat-box/v1/083CEF3DD4851AAB09EA",
+                "width": 640
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.ChatBox (Left 1/4)": [],
+                "libobs.show_scene_item.ChatBox (Left 1/4)": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Chat (Left 1/4)",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 2,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 2,
+                        "name": "ChatBox (Left 1/4)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
                     }
                 ]
             },
@@ -313,29 +790,27 @@
                 "OBSBasic.SelectScene": [
                     {
                         "alt": true,
-                        "key": "OBS_KEY_3"
+                        "key": "OBS_KEY_2"
                     }
                 ],
                 "libobs.hide_scene_item.Chat (Left 1/4)": [],
-                "libobs.hide_scene_item.Image Slide Show": [],
-                "libobs.hide_scene_item.Webcam (Bottom Right)": [],
-                "libobs.hide_scene_item.doing secret stuff": [],
+                "libobs.hide_scene_item.Microphone": [],
+                "libobs.hide_scene_item.Webcam (Right 3/4)": [],
                 "libobs.show_scene_item.Chat (Left 1/4)": [],
-                "libobs.show_scene_item.Image Slide Show": [],
-                "libobs.show_scene_item.Webcam (Bottom Right)": [],
-                "libobs.show_scene_item.doing secret stuff": []
+                "libobs.show_scene_item.Microphone": [],
+                "libobs.show_scene_item.Webcam (Right 3/4)": []
             },
             "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Privacy",
+            "name": "OnAir (Talking)",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "id_counter": 7,
+                "id_counter": 4,
                 "items": [
                     {
                         "align": 5,
@@ -349,8 +824,8 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 3,
-                        "name": "Webcam (Bottom Right)",
+                        "id": 2,
+                        "name": "Microphone",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -361,7 +836,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -375,11 +850,334 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 5,
+                        "id": 3,
                         "name": "Chat (Left 1/4)",
                         "pos": {
-                            "x": 62.0,
-                            "y": -162.0
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 4,
+                        "name": "Webcam (Right 3/4)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.CP920": [],
+                "libobs.show_scene_item.CP920": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Webcam (Right 3/4)",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 1,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1440.0,
+                            "y": 1080.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 1,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 1,
+                        "name": "CP920",
+                        "pos": {
+                            "x": 480.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.CP920": [],
+                "libobs.show_scene_item.CP920": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Webcam (Bottom Right)",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 3,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 1,
+                        "name": "CP920",
+                        "pos": {
+                            "x": 1470.0,
+                            "y": 720.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.703125,
+                            "y": 0.75
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "dshow_input",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": true,
+            "name": "CP920",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "active": true,
+                "deactivate_when_not_showing": true,
+                "last_video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#228&793f9bc&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}",
+                "video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#228&793f9bc&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}"
+            },
+            "sync": 0,
+            "volume": 0.0040960004553198814
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Display Capture": [],
+                "libobs.show_scene_item.Display Capture": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Display Capture (Left Screen)",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 1,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 1,
+                        "name": "Display Capture",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "monitor_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Display Capture",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {},
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "alt": true,
+                        "key": "OBS_KEY_1"
+                    }
+                ],
+                "libobs.hide_scene_item.Avatar (Bottom Right)": [],
+                "libobs.hide_scene_item.Bio": [],
+                "libobs.hide_scene_item.Display Capture (Left Screen)": [],
+                "libobs.hide_scene_item.Microphone": [],
+                "libobs.show_scene_item.Avatar (Bottom Right)": [],
+                "libobs.show_scene_item.Bio": [],
+                "libobs.show_scene_item.Display Capture (Left Screen)": [],
+                "libobs.show_scene_item.Microphone": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "OnAir (Live Coding)",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 6,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 1,
+                        "name": "Display Capture (Left Screen)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 3,
+                        "name": "Microphone",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "rot": 0.0,
                         "scale": {
@@ -401,19 +1199,19 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 2,
-                        "name": "doing secret stuff",
+                        "id": 4,
+                        "name": "Bio",
                         "pos": {
-                            "x": 163.0,
+                            "x": 0.0,
                             "y": 0.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 2.6952862739562988,
-                            "y": 2.6944444179534912
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -428,20 +1226,105 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 6,
-                        "name": "Image Slide Show",
+                        "name": "Avatar (Bottom Right)",
                         "pos": {
                             "x": 0.0,
-                            "y": -408.0
+                            "y": 0.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.50705647468566895,
-                            "y": 0.50712716579437256
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
                     }
                 ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Rode Podcaster": [],
+                "libobs.show_scene_item.Rode Podcaster": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Microphone",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 1,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 1,
+                        "name": "Rode Podcaster",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [
+                    {
+                        "control": true,
+                        "key": "OBS_KEY_NONE"
+                    }
+                ],
+                "libobs.unmute": []
+            },
+            "id": "wasapi_input_capture",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Rode Podcaster",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": true,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "device_id": "{0.0.1.00000000}.{5cae3656-bc40-4c70-b9b1-1422bf71d84c}",
+                "use_device_timing": false
             },
             "sync": 0,
             "volume": 1.0
@@ -622,491 +1505,33 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_NONE"
-                    }
-                ],
-                "libobs.unmute": []
-            },
-            "id": "wasapi_input_capture",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Rode Podcaster",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": true,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "device_id": "{0.0.1.00000000}.{5cae3656-bc40-4c70-b9b1-1422bf71d84c}",
-                "use_device_timing": false
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Rode Podcaster": [],
-                "libobs.show_scene_item.Rode Podcaster": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Microphone",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "id_counter": 1,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 1,
-                        "name": "Rode Podcaster",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
                 "OBSBasic.SelectScene": [
                     {
                         "alt": true,
-                        "key": "OBS_KEY_1"
-                    }
-                ],
-                "libobs.hide_scene_item.Avatar (Bottom Right)": [],
-                "libobs.hide_scene_item.Bio": [],
-                "libobs.hide_scene_item.Display Capture (Left Screen)": [],
-                "libobs.hide_scene_item.Microphone": [],
-                "libobs.show_scene_item.Avatar (Bottom Right)": [],
-                "libobs.show_scene_item.Bio": [],
-                "libobs.show_scene_item.Display Capture (Left Screen)": [],
-                "libobs.show_scene_item.Microphone": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "OnAir (Live Coding)",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "id_counter": 6,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 1,
-                        "name": "Display Capture (Left Screen)",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 3,
-                        "name": "Microphone",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 4,
-                        "name": "Bio",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 6,
-                        "name": "Avatar (Bottom Right)",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "monitor_capture",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Display Capture",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {},
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Display Capture": [],
-                "libobs.show_scene_item.Display Capture": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Display Capture (Left Screen)",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "id_counter": 1,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 1,
-                        "name": "Display Capture",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "dshow_input",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": true,
-            "name": "CP920",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "active": true,
-                "deactivate_when_not_showing": true,
-                "last_video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#228&793f9bc&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}",
-                "video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#228&793f9bc&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}"
-            },
-            "sync": 0,
-            "volume": 0.0040960004553198814
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.CP920": [],
-                "libobs.show_scene_item.CP920": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Webcam (Bottom Right)",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "id_counter": 3,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 1,
-                        "name": "CP920",
-                        "pos": {
-                            "x": 1470.0,
-                            "y": 720.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.703125,
-                            "y": 0.75
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.CP920": [],
-                "libobs.show_scene_item.CP920": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Webcam (Right 3/4)",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "id_counter": 1,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 1440.0,
-                            "y": 1080.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 1,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 1,
-                        "name": "CP920",
-                        "pos": {
-                            "x": 480.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [
-                    {
-                        "alt": true,
-                        "key": "OBS_KEY_2"
+                        "key": "OBS_KEY_3"
                     }
                 ],
                 "libobs.hide_scene_item.Chat (Left 1/4)": [],
-                "libobs.hide_scene_item.Microphone": [],
-                "libobs.hide_scene_item.Webcam (Right 3/4)": [],
+                "libobs.hide_scene_item.Image Slide Show": [],
+                "libobs.hide_scene_item.Webcam (Bottom Right)": [],
+                "libobs.hide_scene_item.doing secret stuff": [],
                 "libobs.show_scene_item.Chat (Left 1/4)": [],
-                "libobs.show_scene_item.Microphone": [],
-                "libobs.show_scene_item.Webcam (Right 3/4)": []
+                "libobs.show_scene_item.Image Slide Show": [],
+                "libobs.show_scene_item.Webcam (Bottom Right)": [],
+                "libobs.show_scene_item.doing secret stuff": []
             },
             "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "OnAir (Talking)",
+            "name": "Privacy",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "id_counter": 4,
+                "id_counter": 7,
                 "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 2,
-                        "name": "Microphone",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -1120,7 +1545,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
-                        "name": "Chat (Left 1/4)",
+                        "name": "Webcam (Bottom Right)",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -1131,178 +1556,8 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 4,
-                        "name": "Webcam (Right 3/4)",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.ChatBox (Left 1/4)": [],
-                "libobs.show_scene_item.ChatBox (Left 1/4)": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Chat (Left 1/4)",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "id_counter": 2,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 2,
-                        "name": "ChatBox (Left 1/4)",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "browser_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "ChatBox (Left 1/4)",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "css": "body { background-color:black; margin: 0px auto; overflow: hidden; }",
-                "height": 1080,
-                "url": "https://streamlabs.com/widgets/chat-box/v1/083CEF3DD4851AAB09EA",
-                "width": 640
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "doing secret stuff",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "chatlog": false,
-                "extents": false,
-                "font": {
-                    "face": "Operator Mono Bold",
-                    "flags": 0,
-                    "size": 72,
-                    "style": ""
-                },
-                "outline": false,
-                "outline_size": 2,
-                "text": "doing secret stuff",
-                "vertical": false
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Background": [],
-                "libobs.hide_scene_item.ghuntley.com": [],
-                "libobs.hide_scene_item.github.com/ghuntley": [],
-                "libobs.hide_scene_item.story": [],
-                "libobs.hide_scene_item.twitter.com/geoffreyhuntley": [],
-                "libobs.show_scene_item.Background": [],
-                "libobs.show_scene_item.ghuntley.com": [],
-                "libobs.show_scene_item.github.com/ghuntley": [],
-                "libobs.show_scene_item.story": [],
-                "libobs.show_scene_item.twitter.com/geoffreyhuntley": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Bio",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "id_counter": 6,
-                "items": [
                     {
                         "align": 5,
                         "bounds": {
@@ -1316,10 +1571,10 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 5,
-                        "name": "github.com/ghuntley",
+                        "name": "Chat (Left 1/4)",
                         "pos": {
-                            "x": 1075.0,
-                            "y": 1041.0
+                            "x": 62.0,
+                            "y": -162.0
                         },
                         "rot": 0.0,
                         "scale": {
@@ -1328,272 +1583,6 @@
                         },
                         "scale_filter": "disable",
                         "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 3,
-                        "name": "ghuntley.com",
-                        "pos": {
-                            "x": 609.0,
-                            "y": 1039.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 1,
-                        "name": "Background",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 1034.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 4.8000001907348633,
-                            "y": 4.8000001907348633
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 4,
-                        "name": "twitter.com/geoffreyhuntley",
-                        "pos": {
-                            "x": 1469.0,
-                            "y": 1039.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 6,
-                        "name": "story",
-                        "pos": {
-                            "x": 5.0,
-                            "y": 1039.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "color_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Background",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {},
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "ghuntley.com",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "bk_color": 0,
-                "color": 0,
-                "font": {
-                    "face": "Operator Mono Bold",
-                    "flags": 1,
-                    "size": 36,
-                    "style": ""
-                },
-                "text": "ghuntley.com"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "twitter.com/geoffreyhuntley",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "bk_color": 0,
-                "color": 0,
-                "font": {
-                    "face": "Operator Mono Bold",
-                    "flags": 1,
-                    "size": 36,
-                    "style": ""
-                },
-                "text": "twitter.com/geoffreyhuntley"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "github.com/ghuntley",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "bk_color": 0,
-                "chatlog": false,
-                "color": 0,
-                "font": {
-                    "face": "Operator Mono Bold",
-                    "flags": 1,
-                    "size": 36,
-                    "style": ""
-                },
-                "text": "github.com/ghuntley"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Avatar": [],
-                "libobs.hide_scene_item.CP920": [],
-                "libobs.show_scene_item.Avatar": [],
-                "libobs.show_scene_item.CP920": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Avatar (Bottom Right)",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "id_counter": 2,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 1,
-                        "name": "CP920",
-                        "pos": {
-                            "x": 1470.0,
-                            "y": 720.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.703125,
-                            "y": 0.75
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1608,15 +1597,41 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
-                        "name": "Avatar",
+                        "name": "doing secret stuff",
                         "pos": {
-                            "x": 1466.0,
-                            "y": 721.0
+                            "x": 163.0,
+                            "y": 0.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.8916666507720947,
-                            "y": 1.8916666507720947
+                            "x": 2.6952862739562988,
+                            "y": 2.6944444179534912
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 6,
+                        "name": "Image Slide Show",
+                        "pos": {
+                            "x": 0.0,
+                            "y": -408.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.50705647468566895,
+                            "y": 0.50712716579437256
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1632,38 +1647,21 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "image_source",
+            "id": "slideshow",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Avatar",
+            "name": "Image Slide Show",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:/Dropbox/livecoding/avatar.jpg"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Standby Image",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "C:/Dropbox/livecoding/standby/markus-spiske-109588.jpg"
+                "files": [
+                    {
+                        "value": "C:/Dropbox/livecoding/slide-show"
+                    }
+                ]
             },
             "sync": 0,
             "volume": 1.0
@@ -1678,21 +1676,23 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Please stand by",
+            "name": "story",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "align": "center",
-                "extents": false,
+                "bk_color": 0,
+                "color": 0,
+                "file": "C:/Dropbox/livecoding/infobar.txt",
                 "font": {
                     "face": "Operator Mono Bold",
-                    "flags": 0,
-                    "size": 200,
+                    "flags": 1,
+                    "size": 36,
                     "style": ""
                 },
-                "text": "Back in a couple\nof minutes..."
+                "read_from_file": true,
+                "text": "twitter.com/geoffreyhuntley"
             },
             "sync": 0,
             "volume": 1.0
