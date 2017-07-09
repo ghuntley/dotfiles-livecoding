@@ -1,1 +1,1 @@
-theme: social and adding tizen support to reactiveui
+theme: porting library to netstandard and x-plat compilation from single project

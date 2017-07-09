@@ -7,7 +7,13 @@
         "hotkeys": {
             "libobs.mute": [],
             "libobs.push-to-mute": [],
-            "libobs.push-to-talk": [],
+            "libobs.push-to-talk": [
+                {
+                    "alt": true,
+                    "control": true,
+                    "key": "OBS_KEY_NONE"
+                }
+            ],
             "libobs.unmute": []
         },
         "id": "wasapi_input_capture",
@@ -17,7 +23,7 @@
         "name": "Mic/Aux",
         "push-to-mute": false,
         "push-to-mute-delay": 0,
-        "push-to-talk": false,
+        "push-to-talk": true,
         "push-to-talk-delay": 0,
         "settings": {
             "device_id": "default"
@@ -39,7 +45,7 @@
         "id": "wasapi_output_capture",
         "mixers": 255,
         "monitoring_type": 0,
-        "muted": false,
+        "muted": true,
         "name": "Desktop Audio",
         "push-to-mute": false,
         "push-to-mute-delay": 0,
@@ -51,15 +57,15 @@
         "sync": 0,
         "volume": 1.0
     },
-    "current_program_scene": "Webcam (Bottom Right)",
-    "current_scene": "Webcam (Bottom Right)",
+    "current_program_scene": "OnAir (Live Coding)",
+    "current_scene": "OnAir (Live Coding)",
     "current_transition": "Fade",
     "modules": {
         "auto-scene-switcher": {
             "active": true,
             "interval": 50,
             "non_matching_scene": "OnAir (Live Coding)",
-            "switch_if_not_matching": false,
+            "switch_if_not_matching": true,
             "switches": [
                 {
                     "scene": "Privacy",
@@ -112,6 +118,10 @@
                 {
                     "scene": "Privacy",
                     "window_title": ".*Create a New Repository.*"
+                },
+                {
+                    "scene": "Privacy",
+                    "window_title": ".*members.csv.*"
                 }
             ]
         },
@@ -1263,7 +1273,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -1289,7 +1299,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -1394,7 +1404,7 @@
             "id": "wasapi_input_capture",
             "mixers": 255,
             "monitoring_type": 0,
-            "muted": false,
+            "muted": true,
             "name": "Rode Podcaster",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1691,11 +1701,11 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1920.0,
+                            "y": 1080.0
                         },
                         "bounds_align": 0,
-                        "bounds_type": 0,
+                        "bounds_type": 1,
                         "crop_bottom": 0,
                         "crop_left": 0,
                         "crop_right": 0,
@@ -1704,12 +1714,12 @@
                         "name": "Image Slide Show",
                         "pos": {
                             "x": 0.0,
-                            "y": -408.0
+                            "y": 0.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.50705647468566895,
-                            "y": 0.50712716579437256
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1770,7 +1780,8 @@
                     "style": ""
                 },
                 "read_from_file": true,
-                "text": "twitter.com/geoffreyhuntley"
+                "text": "twitter.com/geoffreyhuntley",
+                "vertical": false
             },
             "sync": 0,
             "volume": 1.0
