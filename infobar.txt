@@ -1,1 +1,1 @@
-theme: porting library to netstandard and x-plat compilation from single project
+theme: adding integration tests that validates NuGet package installation

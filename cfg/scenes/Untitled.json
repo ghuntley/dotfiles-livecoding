@@ -9,7 +9,7 @@
             "libobs.push-to-mute": [],
             "libobs.push-to-talk": [
                 {
-                    "key": "OBS_KEY_ESCAPE"
+                    "key": "OBS_KEY_NUMMINUS"
                 }
             ],
             "libobs.unmute": []
@@ -20,9 +20,9 @@
         "muted": false,
         "name": "Mic/Aux",
         "push-to-mute": false,
-        "push-to-mute-delay": 0,
-        "push-to-talk": true,
-        "push-to-talk-delay": 0,
+        "push-to-mute-delay": 2,
+        "push-to-talk": false,
+        "push-to-talk-delay": 2,
         "settings": {
             "device_id": "default"
         },
@@ -43,7 +43,7 @@
         "id": "wasapi_output_capture",
         "mixers": 255,
         "monitoring_type": 0,
-        "muted": true,
+        "muted": false,
         "name": "Desktop Audio",
         "push-to-mute": false,
         "push-to-mute-delay": 0,
@@ -63,7 +63,7 @@
             "active": true,
             "interval": 50,
             "non_matching_scene": "OnAir (Live Coding)",
-            "switch_if_not_matching": true,
+            "switch_if_not_matching": false,
             "switches": [
                 {
                     "scene": "Privacy",
@@ -120,6 +120,18 @@
                 {
                     "scene": "Privacy",
                     "window_title": ".*members.csv.*"
+                },
+                {
+                    "scene": "Privacy",
+                    "window_title": ".*Downloads.*"
+                },
+                {
+                    "scene": "Privacy",
+                    "window_title": ".*Readify.*"
+                },
+                {
+                    "scene": "Privacy",
+                    "window_title": ".*10.0.0.10.*"
                 }
             ]
         },
@@ -219,7 +231,10 @@
             "saved_projectors": ""
         }
     ],
-    "scaling_mode": 0,
+    "scaling_enabled": false,
+    "scaling_level": 0,
+    "scaling_off_x": 0.0,
+    "scaling_off_y": 0.0,
     "scene_order": [
         {
             "name": "Standby"
@@ -294,7 +309,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "align": "center",
+                "align": "left",
                 "extents": false,
                 "font": {
                     "face": "Operator Mono Bold",
@@ -302,7 +317,7 @@
                     "size": 128,
                     "style": ""
                 },
-                "text": "Back in a couple\nof minutes..."
+                "text": "Back in a\nmoment..."
             },
             "sync": 0,
             "volume": 1.0
@@ -386,6 +401,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "CP920",
                         "pos": {
                             "x": 1470.0,
@@ -397,7 +413,7 @@
                             "y": 0.75
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -412,6 +428,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "Avatar",
                         "pos": {
                             "x": 1466.0,
@@ -580,6 +597,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 5,
+                        "locked": false,
                         "name": "github.com/ghuntley",
                         "pos": {
                             "x": 1075.0,
@@ -606,6 +624,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "ghuntley.com",
                         "pos": {
                             "x": 609.0,
@@ -632,15 +651,16 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "Background",
                         "pos": {
                             "x": 0.0,
-                            "y": 1034.0
+                            "y": 1012.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 4.8000001907348633,
-                            "y": 4.8000001907348633
+                            "x": 4.8550000190734863,
+                            "y": 4.8550000190734863
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -658,10 +678,11 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "twitter.com/geoffreyhuntley",
                         "pos": {
-                            "x": 1469.0,
-                            "y": 1039.0
+                            "x": 1461.0,
+                            "y": 1031.0
                         },
                         "rot": 0.0,
                         "scale": {
@@ -684,10 +705,11 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 6,
+                        "locked": false,
                         "name": "story",
                         "pos": {
-                            "x": 5.0,
-                            "y": 1039.0
+                            "x": 13.0,
+                            "y": 1031.0
                         },
                         "rot": 0.0,
                         "scale": {
@@ -795,6 +817,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "ChatBox Background",
                         "pos": {
                             "x": 0.0,
@@ -821,6 +844,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "ChatBox (Left 1/4)",
                         "pos": {
                             "x": 0.0,
@@ -883,6 +907,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "Microphone",
                         "pos": {
                             "x": 0.0,
@@ -909,6 +934,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "Webcam (Right 3/4)",
                         "pos": {
                             "x": 0.0,
@@ -935,6 +961,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "Chat (Left 1/4)",
                         "pos": {
                             "x": 0.0,
@@ -988,6 +1015,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "CP920",
                         "pos": {
                             "x": 480.0,
@@ -1026,7 +1054,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "id_counter": 3,
+                "id_counter": 4,
                 "items": [
                     {
                         "align": 5,
@@ -1041,6 +1069,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "CP920",
                         "pos": {
                             "x": 1470.0,
@@ -1081,12 +1110,12 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "active": true,
-                "deactivate_when_not_showing": false,
+                "deactivate_when_not_showing": true,
                 "last_video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#228&793f9bc&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}",
                 "video_device_id": "Logitech HD Pro Webcam C920:\\\\?\\usb#22vid_046d&pid_082d&mi_00#228&793f9bc&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}"
             },
             "sync": 0,
-            "volume": 1.0
+            "volume": 0.06399998813867569
         },
         {
             "deinterlace_field_order": 0,
@@ -1123,6 +1152,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "Display Capture",
                         "pos": {
                             "x": 0.0,
@@ -1208,6 +1238,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "Display Capture (Left Screen)",
                         "pos": {
                             "x": 0.0,
@@ -1234,6 +1265,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "Microphone",
                         "pos": {
                             "x": 0.0,
@@ -1245,7 +1277,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -1260,6 +1292,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 6,
+                        "locked": false,
                         "name": "Avatar (Bottom Right)",
                         "pos": {
                             "x": 0.0,
@@ -1286,6 +1319,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 7,
+                        "locked": false,
                         "name": "Webcam (Bottom Right)",
                         "pos": {
                             "x": 0.0,
@@ -1312,6 +1346,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "Bio",
                         "pos": {
                             "x": 0.0,
@@ -1365,6 +1400,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "Rode Podcaster",
                         "pos": {
                             "x": 0.0,
@@ -1391,12 +1427,7 @@
             "hotkeys": {
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_NONE"
-                    }
-                ],
+                "libobs.push-to-talk": [],
                 "libobs.unmute": []
             },
             "id": "wasapi_input_capture",
@@ -1463,6 +1494,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
+                        "locked": false,
                         "name": "Standby Image",
                         "pos": {
                             "x": 0.0,
@@ -1489,6 +1521,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
+                        "locked": false,
                         "name": "Avatar (Bottom Right)",
                         "pos": {
                             "x": 0.0,
@@ -1515,6 +1548,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "Chat (Left 1/4)",
                         "pos": {
                             "x": 0.0,
@@ -1541,6 +1575,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "Bio",
                         "pos": {
                             "x": 0.0,
@@ -1567,10 +1602,11 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 5,
+                        "locked": false,
                         "name": "Please stand by",
                         "pos": {
-                            "x": 935.0,
-                            "y": 58.0
+                            "x": 1360.0,
+                            "y": 15.0
                         },
                         "rot": 0.0,
                         "scale": {
@@ -1599,10 +1635,12 @@
                 ],
                 "libobs.hide_scene_item.Chat (Left 1/4)": [],
                 "libobs.hide_scene_item.Image Slide Show": [],
+                "libobs.hide_scene_item.Standby": [],
                 "libobs.hide_scene_item.Webcam (Bottom Right)": [],
                 "libobs.hide_scene_item.doing secret stuff": [],
                 "libobs.show_scene_item.Chat (Left 1/4)": [],
                 "libobs.show_scene_item.Image Slide Show": [],
+                "libobs.show_scene_item.Standby": [],
                 "libobs.show_scene_item.Webcam (Bottom Right)": [],
                 "libobs.show_scene_item.doing secret stuff": []
             },
@@ -1616,7 +1654,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "id_counter": 7,
+                "id_counter": 8,
                 "items": [
                     {
                         "align": 5,
@@ -1631,6 +1669,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 3,
+                        "locked": false,
                         "name": "Webcam (Bottom Right)",
                         "pos": {
                             "x": 0.0,
@@ -1657,6 +1696,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 5,
+                        "locked": false,
                         "name": "Chat (Left 1/4)",
                         "pos": {
                             "x": 62.0,
@@ -1683,6 +1723,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 2,
+                        "locked": false,
                         "name": "doing secret stuff",
                         "pos": {
                             "x": 163.0,
@@ -1709,7 +1750,35 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 6,
+                        "locked": false,
                         "name": "Image Slide Show",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 8,
+                        "locked": false,
+                        "name": "Standby",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -1732,7 +1801,13 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {},
+            "hotkeys": {
+                "SlideShow.NextSlide": [],
+                "SlideShow.PlayPause": [],
+                "SlideShow.PreviousSlide": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": []
+            },
             "id": "slideshow",
             "mixers": 0,
             "monitoring_type": 0,
